@@ -4,8 +4,6 @@ format: md
 editor: visual
 ---
 
-# Zillow Home Value Index Analysis
-
 Our aim is observe and describe trends in the Zillow Home Value Index for North Carolina. We will do so using R via R Studio. First, we import the data and read our required packages.
 
 ```{r setup}

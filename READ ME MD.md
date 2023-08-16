@@ -1,7 +1,5 @@
 # Zillow Home Value Index Analysis NC
 
-# Zillow Home Value Index Analysis
-
 Our aim is observe and describe trends in the Zillow Home Value Index
 for North Carolina. We will do so using R via R Studio. First, we import
 the data and read our required packages.
@@ -126,13 +124,13 @@ Sales_col=
 Sales_point
 ```
 
-![](Zillow-Home-Value-Index-Analysis-NC.markdown_strict_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](QMD.markdown_strict_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
 ``` r
 Sales_col
 ```
 
-![](Zillow-Home-Value-Index-Analysis-NC.markdown_strict_files/figure-markdown_strict/unnamed-chunk-3-2.png)
+![](QMD.markdown_strict_files/figure-markdown_strict/unnamed-chunk-3-2.png)
 
 ``` r
 ggsave("Sales_point.png", Sales_point)
@@ -225,13 +223,13 @@ Rentals_col=
 Rentals_point
 ```
 
-![](Zillow-Home-Value-Index-Analysis-NC.markdown_strict_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](QMD.markdown_strict_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
 ``` r
 Rentals_col
 ```
 
-![](Zillow-Home-Value-Index-Analysis-NC.markdown_strict_files/figure-markdown_strict/unnamed-chunk-6-2.png)
+![](QMD.markdown_strict_files/figure-markdown_strict/unnamed-chunk-6-2.png)
 
 ``` r
 ggsave("Rentals_point.png",Rentals_point)
@@ -289,7 +287,7 @@ Sales_violinbox=
 Sales_violinbox
 ```
 
-![](Zillow-Home-Value-Index-Analysis-NC.markdown_strict_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](QMD.markdown_strict_files/figure-markdown_strict/unnamed-chunk-7-1.png)
 
 ``` r
 ggsave("Sales_violinbox.png",Sales_violinbox)
@@ -355,7 +353,7 @@ Rentals_violinbox=
 Rentals_violinbox
 ```
 
-![](Zillow-Home-Value-Index-Analysis-NC.markdown_strict_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![](QMD.markdown_strict_files/figure-markdown_strict/unnamed-chunk-8-1.png)
 
 ``` r
 ggsave("Rentals_violinbox.png",Rentals_violinbox)
